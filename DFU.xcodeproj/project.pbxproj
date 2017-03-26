@@ -71,6 +71,7 @@
 		312180F01E7F144700F7AB7E /* WHC_StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312180EC1E7F144700F7AB7E /* WHC_StackView.swift */; };
 		31A748C21E863FF900834440 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A748C11E863FF900834440 /* SwiftMessages.framework */; };
 		31A748C31E863FF900834440 /* SwiftMessages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31A748C11E863FF900834440 /* SwiftMessages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31A748C61E8646CB00834440 /* menu_cancel_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A748C51E8646CB00834440 /* menu_cancel_@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -197,6 +198,7 @@
 		312180EB1E7F144700F7AB7E /* WHC_Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WHC_Frame.swift; path = WHC_AutoLayoutKit/WHC_Frame.swift; sourceTree = "<group>"; };
 		312180EC1E7F144700F7AB7E /* WHC_StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WHC_StackView.swift; path = WHC_AutoLayoutKit/WHC_StackView.swift; sourceTree = "<group>"; };
 		31A748C11E863FF900834440 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftMessages.framework; sourceTree = "<group>"; };
+		31A748C51E8646CB00834440 /* menu_cancel_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_cancel_@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 		312180231E7EF9B900F7AB7E /* DFU */ = {
 			isa = PBXGroup;
 			children = (
+				31A748C51E8646CB00834440 /* menu_cancel_@2x.png */,
 				312180271E7EF9B900F7AB7E /* AppDelegate.h */,
 				312180281E7EF9B900F7AB7E /* AppDelegate.m */,
 				3121802A1E7EF9B900F7AB7E /* ViewController.h */,
@@ -583,6 +586,7 @@
 				312180341E7EF9B900F7AB7E /* LaunchScreen.storyboard in Resources */,
 				312180A91E7EFEAB00F7AB7E /* MBProgressHUD.bundle in Resources */,
 				312180311E7EF9B900F7AB7E /* Assets.xcassets in Resources */,
+				31A748C61E8646CB00834440 /* menu_cancel_@2x.png in Resources */,
 				312180E31E7F077600F7AB7E /* firmwares in Resources */,
 				3121802F1E7EF9B900F7AB7E /* Main.storyboard in Resources */,
 			);
