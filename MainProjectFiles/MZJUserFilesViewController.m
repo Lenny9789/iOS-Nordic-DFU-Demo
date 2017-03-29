@@ -26,7 +26,7 @@
 
 - (UITableView *)mainTableView{
     if (_mainTableView == nil) {
-        _mainTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 64) style:UITableViewStylePlain];
+        _mainTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height - 64) style:UITableViewStylePlain];
         [self.view addSubview:_mainTableView];
         _mainTableView.backgroundColor = [UIColor clearColor];
         _mainTableView.delegate = self;
@@ -91,7 +91,7 @@
     NSLog(@"%@",fileURL);
     [self.delegate onFileSelected:fileURL];
     
-    [self.navigationController popViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 
